@@ -34,16 +34,16 @@
             <img src="./assets/images/logo.png" width="364" height="58" alt="logo">
         </a>
 
-        <div class="search-view ">  <!--active-->
+        <div class="search-view" data-search-view>  <!--active-->
             <div class="search-wrapper">
-                <input type="search" name="search" placeholder="Search city..." class="search-filed" autocomplete="off">
+                <input type="search" name="search" placeholder="Search city..." class="search-filed" autocomplete="off" data-search-file>
                 <span class="m-icon leading-icon">Search</span>
-                <button class="icon-btn leading-icon has-state" aria-label="close search">
+                <button class="icon-btn leading-icon has-state" aria-label="close search" data-search-toggler>
                     <span class="m-icon">arrow_back</span>
                 </button>
             </div>
-            <div class="search-result">
-                <ul class="view-list">
+            <div class="search-result" data-search-result>
+                <ul class="view-list" data-search-list>
                     <li class="view-item">
                         <span class="m-icon">location_on</span>
 

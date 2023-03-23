@@ -981,7 +981,7 @@ article.container::before {
 
     .search-view,
     .search-view.active {
-        all: revert;
+        all: unset;
         display: block;
         position: relative;
         width: 500px;
